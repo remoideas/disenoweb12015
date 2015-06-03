@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Vega</title>
+	
+	<script type="text/javascript" src="../../jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="vegas/jquery.vegas.min.js"></script>
+
+	<script>
+
+	$(function() {
+
+	  $.vegas('slideshow', {
+		  backgrounds:[
+		    { src:'img/1.jpg', fade:1000 },
+		    { src:'img/2.jpg', fade:1000 },
+		    { src:'img/3.jpg', fade:1000 }
+		  ]
+		})('overlay', {
+		  src:'vegas/overlays/09.png'
+		});
+
+	});
+
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="vegas/jquery.vegas.min.css">
+
+	<style>
+	
+		h1 {
+			font-size: 80px;
+			color: white;
+			font-family: arial, helvetica;
+			text-align: center;
+
+		}
+
+		div {
+	
+			width: 60%;
+			margin: 0 auto;
+			padding: 20px 30px;
+			background-color: rgba(255,255,255,0.8);
+			border-radius: 3px;
+			font-family: arial, helvetica;
+			line-height: 25px;
+
+		}
+
+	</style>
+</head>
+<body>
+
+	<h1>Venta de casas</h1>
+
+	<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea eum inventore suscipit officia odio a provident minima quo exercitationem. Beatae aliquam rerum sapiente maxime sunt a soluta animi, debitis aperiam?<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum enim, ea, ratione consequatur itaque sed ut! Illum quod odio enim non nam, nobis, et necessitatibus, corporis, eaque magnam debitis perferendis!</div>
+	
+</body>
+</html>
